@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Farmer Market Finder</title>
+
+    <link rel="stylesheet" href="photos\temp1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .slide {
+            display: none; 
+        }
+        .active {
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Discover Your Local Farmers' Market</h1>
+        <p>Fresh produce, Flowers, and Fruits – Direct from Farmers to Your Home</p>
+        <nav>
+            <ul>
+                <a href="header.php" class="header-link">Search</a>
+                    
+            </nav>  
+</header>
+    </header>
+    
+         <div class="slider">
+        
+            <div class="slide">
+               
+                <img src="photos/market-image1.jpg" alt="">
+            </div>
+            <div class="slide">
+               
+                <img src="photos/market-image2.jpg" alt="">
+            </div>
+            <div class="slide">
+               
+                <img src="photos/market-image3.jpg" alt="">
+            </div>
+            <div class="slide">
+               
+            <img src="photos/market.jpg" alt="">
+            </div>
+        
+    </div>
+
+
+    <section class="intro">
+        <h2>Why Choose Local Markets?</h2>
+        <p>In the heart of Telugu regions, farmers wake up before dawn, tending to their fields with dedication. Every fruit, vegetable, and flower sold at these markets carries the essence of their hard work. Our local farmers pour love and care into the land, ensuring that you receive the freshest and healthiest produce. Support your local farmers and enjoy nature’s bounty while promoting sustainability.</p>
+    </section>
+
+    <section class="features">
+        <h2>Key Features</h2>
+        <div class="feature-item">
+            <h3>Fresh and Organic Produce</h3>
+            <p>Local Telugu farmers use traditional farming methods to ensure chemical-free, organic fruits and vegetables.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Colorful and Fragrant Flowers</h3>
+            <p>From marigolds to jasmine, find fresh flowers for every occasion.</p>
+        </div>
+        <div class="feature-item">
+            <h3>Authentic Telugu Markets</h3>
+            <p>Experience the vibrancy of local markets, supporting community farmers and small-scale vendors.</p>
+        </div>
+    </section>
+
+    
+    
+    <section class="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-item">
+            <img src="photos/tomato-harvest1.jpg" alt="Farmer harvesting fresh tomatoes">
+            <p>Farmers harvesting fresh tomatoes in the early morning.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="photos/flower-market1.jpg" alt="Selling garlands of marigolds and jasmine">
+            <p>Selling garlands of marigolds and roses in a market.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="vendor-vegetables.jpg" alt="Vendor with baskets of vegetables">
+            <p>A farmer plucking green leafy vegetables from his agricultural field.</p>
+        </div>
+        <div class="gallery-item">
+            <img src="photos/market2.jpeg" alt="Bustling Telugu market">
+            <p>A front view shot of a busy market with fruits and vegetables.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+
+        <form id="contactForm" action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" formtarget="_blank">Submit</button>
+
+        <!--  -->
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Local Farmer Market Finder. All rights reserved by Praneeth.</p>
+    </footer>
+
+    <script src="homepage/home.js"></script>
+</body>
+</html>
+
